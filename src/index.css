@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "museo-sans-cyrl-100";
+  src: url(./assets/fonts/museosanscyrl_100.otf);
+  src: url(./assets/fonts/museosanscyrl_100.eot);
+  src: url(./assets/fonts/museosanscyrl_100.woff);
+}
+
+@font-face {
+  font-family: "museo-sans-cyrl-300";
+  src: url(./assets/fonts/ofont.ru_Museo_Sans_Cyrl_300.otf);
+  src: url(./assets/fonts/ofont.ru_Museo_Sans_Cyrl_300.eot);
+  src: url(./assets/fonts/ofont.ru_Museo_Sans_Cyrl_300.woff);
+}
+
+@font-face {
+  font-family: "museo-sans-cyrl-700";
+  src: url(./assets/fonts/ofont.ru_Museo_Sans_Cyrl_700.otf);
+  src: url(./assets/fonts/ofont.ru_Museo_Sans_Cyrl_700.eot);
+  src: url(./assets/fonts/ofont.ru_Museo_Sans_Cyrl_700.woff);
+}
+
+.bb {
+  border: 1px solid red;
+}
+
+.wrapper {
+  width: 1210px;
+  margin: 0 auto;
+}
+
+.main-section {
+  height: 660px;
+  background: url(./assets/images/background.png);
+  background-size: 1920px 660px;
+  background-position: center;
+}
+
+@media (max-width: 1210px) {
+  .main-section {
+    height: unset;
+    background-size: auto 810px;
+    background-attachment: fixed;
+    background-position: -410px 110px;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width: 810px) {
+  .main-section {
+    background-size: auto 810px;
+    background-attachment: fixed;
+    background-position: -520px 100px;
+  }
+}
+
+@media (max-width: 620px) {
+  .main-section {
+    background-position: -640px 100px;
+  }
+}
+
+@media (max-width: 400px) {
+  .main-section {
+    background-position: -700px 110px;
+  }
+}
