@@ -46,18 +46,23 @@ code {
 }
 
 .wrapper {
-  width: 1210px;
+  width: 1224px;
   margin: 0 auto;
 }
 
 .main-section {
   height: 660px;
+  max-width: 1920px;
+  margin: 0 auto;
   background: url(./assets/images/background.png);
-  background-size: 1920px 660px;
-  background-position: center;
+  background-position: center 0px;
 }
 
-@media (max-width: 1210px) {
+.main-section__container {
+  padding-left: 16px;
+}
+
+@media (max-width: 1240px) {
   .main-section {
     height: unset;
     background-size: auto 810px;

@@ -3,60 +3,21 @@
   width: 50%;
   position: relative;
 }
-.section-wrapper__heading > h1 {
-  color: white;
-  text-transform: uppercase;
-  font-family: "museo-sans-cyrl-700";
-  font-size: 58px;
-  line-height: 50px;
-  font-weight: 300; /*Firefox */
+
+.section-wrapper__headings {
+  position: absolute;
+  top: 114px;
 }
 
-.section-wrapper__heading > h3 {
-  color: white;
+.section-wrapper__h1 {
+  text-transform: uppercase;
+  font-size: 58px;
+  font-family: "museo-sans-cyrl-700";
+}
+
+.section-wrapper__h3 {
   font-family: "museo-sans-cyrl-300";
   font-size: 25px;
-  line-height: 27px;
-  font-weight: 300;
-}
-
-.section-wrapper__heading {
-  position: absolute;
-  top: 102px;
-  background: linear-gradient(to left, rgb(255, 69, 12), rgb(255, 255, 255));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-/* .section-wrapper__heading:not(*:root) {
-  -webkit-text-fill-color: #ffffff;
-} */
-
-@media not all and (min-resolution: 0.001dpcm) {
-  @supports (-webkit-appearance: none) {
-    .section-wrapper__heading {
-      -webkit-text-fill-color: #ffffff;
-    }
-  }
-}
-
-/*Edge*/
-_:-ms-lang(x),
-_:-webkit-full-screen,
-.section-wrapper__heading {
-  -webkit-text-fill-color: #ffffff;
-}
-
-/*IE*/
-_:-ms-fullscreen,
-:root .section-wrapper__heading {
-  background-image: none;
-}
-
-_::-webkit-full-page-media,
-_:future,
-:root .safari_only {
-  -webkit-text-fill-color: #ffffff;
 }
 
 .section-wrapper__button-start {
@@ -68,21 +29,21 @@ _:future,
   height: 33px;
   width: 178px;
   position: absolute;
-  top: 280px;
+  top: 284px;
 }
 
 .section-wrapper__button-start_border-block1 {
   position: absolute;
   height: 35px;
   width: 180px;
-  background: linear-gradient(15deg, #005789, #031b24, #203d5a);
-  top: 279px;
+  background: linear-gradient(7deg, #24589c, #0d1f2d 43%, #263e66);
+  top: 283px;
   left: -1px;
 }
 
 .section-wrapper__button-start_border-block2 {
   position: absolute;
-  top: 311px;
+  top: 315px;
   left: -1px;
   width: 3px;
   height: 3px;
@@ -94,7 +55,7 @@ _:future,
 
 .section-wrapper__button-start_border-block3 {
   position: absolute;
-  top: 279px;
+  top: 283px;
   left: 176px;
   width: 3px;
   height: 3px;
@@ -106,12 +67,12 @@ _:future,
 
 #button-line {
   position: absolute;
-  top: 297px;
+  top: 300px;
   left: 180px;
   z-index: 4;
 }
 
-@media (max-width: 1210px) {
+@media (max-width: 1240px) {
   .section-wrapper__left {
     height: 352px;
     width: 90%;
@@ -119,22 +80,26 @@ _:future,
   }
 }
 
-@media (max-width: 500px) {
-  .section-wrapper__heading > h1 {
-    font-size: 47px;
+@media (max-width: 620px) {
+  .section-wrapper__h1 {
+    font-size: 45px;
   }
 
-  .section-wrapper__heading > h3 {
+  .section-wrapper__h3 {
     font-size: 22px;
+  }
+
+  .section-wrapper__headings {
+    top: 85px;
   }
 }
 
 @media (max-width: 400px) {
-  .section-wrapper__heading > h1 {
-    font-size: 38px;
+  .section-wrapper__h1 {
+    font-size: 40px;
   }
 
-  .section-wrapper__heading > h3 {
-    font-size: 20px;
+  .section-wrapper__h3 {
+    font-size: 21px;
   }
 }

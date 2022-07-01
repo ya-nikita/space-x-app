@@ -6,22 +6,22 @@ function SectionWrapperRight() {
     return (
         <div className="section-wrapper__right">
             <div className="section-wrapper__profits">
-                <div className="section-wrapper__profit section-wrapper__profit1">
+                <div className="section-wrapper__profit section-wrapper__profit_1">
                     <span>мы</span>
                     <h1>1</h1>
                     <span>на рынке</span>
                 </div>
-                <div className="section-wrapper__profit section-wrapper__profit2">
+                <div className="section-wrapper__profit section-wrapper__profit_2">
                     <span>гарантируем</span>
                     <h1>50%</h1>
                     <span>безопасность</span>
                 </div>
-                <div className="section-wrapper__profit section-wrapper__profit3">
+                <div className="section-wrapper__profit section-wrapper__profit_3">
                     <span>календарик за</span>
                     <h1>2001<small>г.</small></h1>
                     <span>в подарок</span>
                 </div>
-                <div className="section-wrapper__profit section-wrapper__profit4">
+                <div className="section-wrapper__profit section-wrapper__profit_4">
                     <span>путешествие</span>
                     <h1>597</h1>
                     <span>дней</span>

@@ -6,9 +6,11 @@ import SectionWrapperRight from "../SectionWrapperRight";
 
 function SectionWrapper() {
     return (
-        <div className="wrapper section-wrapper">
-            <SectionWrapperLeft />
-            <SectionWrapperRight />
+        <div className='main-section__container'>
+            <div className="wrapper section-wrapper">
+                <SectionWrapperLeft />
+                <SectionWrapperRight />
+            </div>
         </div>
     )
 }

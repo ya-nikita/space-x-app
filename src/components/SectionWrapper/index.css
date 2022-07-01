@@ -1,20 +1,20 @@
 .section-wrapper {
   height: 460px;
   display: flex;
-  padding-left: 20px;
+  padding-left: 17px;
 }
 
 .section-wrapper__mask-background {
   position: absolute;
   background: no-repeat url(../../assets/images/background-planet.png);
-  height: 387px;
-  width: 385px;
-  left: 392px;
-  top: 33px;
+  height: 386px;
+  width: 386px;
+  left: 396px;
+  top: 35px;
   z-index: 2;
 }
 
-@media (max-width: 1210px) {
+@media (max-width: 1240px) {
   .section-wrapper {
     height: unset;
     padding-left: unset;
@@ -29,5 +29,4 @@
   .section-wrapper__mask-background {
     display: none;
   }
-
 }

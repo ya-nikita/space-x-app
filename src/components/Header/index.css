@@ -1,12 +1,12 @@
 header {
-  background: rgba(21, 10, 1, 0.439);
-  border-bottom: 1px solid rgba(152, 147, 147, 0.29);
-  border-top: 1px solid rgba(152, 147, 147, 0.29);
+  background: rgba(21, 10, 1, 0.21);
+  border-bottom: 1px solid #303136;
+  border-top: 1px solid #303136;
 }
 
 .header__nav > ul > li {
   display: inline-block;
-  margin-left: 40px;
+  margin: 0 20px;
   font-family: "museo-sans-cyrl-300";
   font-size: 16px;
   color: #ffffff;
@@ -40,7 +40,7 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 100px;
-  padding: 0 20px;
+  padding: 0 17px;
 }
 
 .header__logo-img {
@@ -64,7 +64,7 @@ header {
   width: 302px;
   top: -1px;
   left: 6px;
-  border: 1px solid #413537;
+  border: 1px solid #303136;
   border-left: none;
   border-right: none;
 }
@@ -75,7 +75,7 @@ header {
   width: 316px;
   top: 6px;
   left: -1px;
-  border: 1px solid #413537;
+  border: 1px solid #353438;
   border-bottom: none;
   border-top: none;
 }
@@ -84,11 +84,11 @@ header {
   position: absolute;
   height: 37px;
   width: 273px;
-  top: 27px;
-  left: 27px;
+  top: 24px;
+  left: 26px;
 }
 
-@media (max-width: 1210px) {
+@media (max-width: 1240px) {
   header {
     background: rgb(21, 10, 1);
     position: sticky;

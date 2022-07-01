@@ -18,13 +18,13 @@ function BtnLine() {
         gradient.addColorStop(1, '#ffffff');
         ctx.beginPath()
         ctx.moveTo(1, 1)
-        ctx.lineTo(70, 50)
-        ctx.lineTo(401, 50)
+        ctx.lineTo(68, 51)
+        ctx.lineTo(405, 51)
         ctx.strokeStyle = gradient
         ctx.stroke()
 
         ctx.beginPath()
-        ctx.arc(403, 50, 2, 0, Math.PI * 2, true);
+        ctx.arc(407, 51, 2, 0, Math.PI * 2, true);
         ctx.stroke()
     }
 
